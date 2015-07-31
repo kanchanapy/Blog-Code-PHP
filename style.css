@@ -1,0 +1,130 @@
+body {
+	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;	
+	margin: 0 0 10px 0;
+	background-image: url(http://earthdreamz.com/egimg/bg.png);
+	background-repeat: repeat;
+	color: #444;
+}
+
+#content {	
+	width: 80%;	
+	padding: 9px 10px 5px 10px; 
+	margin: auto;	
+	background-color: #fff;
+	-moz-box-shadow: 3px 3px 4px #888;
+	-webkit-box-shadow: 3px 3px 4px #888;
+	box-shadow: 3px 3px 4px #888;
+}
+
+#header {
+	background-color: #7f6b64;	
+	height: 114px;
+	width: 100%;	
+	padding: auto; 
+	margin: auto;
+	text-align: center;
+}
+
+#maincontent {
+	background-color: #fff;		
+	width: 100%;
+	margin: auto;
+	min-height: 600px;
+	padding: 30px 0 50px 0;
+	font-size: 0.8em;
+}
+
+td.mainleft {	   
+	padding: 0 30px 0 30px;
+	border-right: 1px solid #ddd;	
+	height: 600px;
+}
+
+td.mainright {		
+	width: 270px; 
+	padding: 0 30px 0 20px;		
+}
+
+.titledate, .titletop {
+	color: #222;
+	font-weight: bold;
+	font-size: 0.85em;
+	text-transform:uppercase;
+}
+
+.posttitle h1 {
+	color: #7f6b64;
+	font-weight: normal;
+	font-size: 1.7em;
+}
+
+.postcontent {
+	color: #222;
+	font-weight: normal;	
+	line-height: 1.5em;	
+}
+
+.drawline {		
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ddd;
+}
+
+div.imgcenter {	
+	margin: 15px 0 15px 0;	
+	text-align: center;
+}
+
+div.imgleft {	
+	margin: 5px 15px 5px 0;		
+	float:left;	
+}
+
+div.imgright {	
+	margin: 5px 0 5px 15px;		
+	float:right;	
+}
+
+div.imgcenter img, div.imgleft img, div.imgright img {
+	border: 1px solid #eee;
+	padding: 5px;
+	box-shadow: 2px 2px 1px #eee;
+}
+
+#maincontent a {
+	text-decoration: none;
+	color: #666;
+}
+
+#maincontent a:hover {
+	text-decoration: none;
+	color: #3399FF;
+}
+
+.level2 {
+margin-left: 20px;
+}
+
+.level3 {
+margin-left: 40px;
+}
+	
+#footer {
+	background-color: #fff;		
+	width: 80%;	
+	padding: auto; 
+	margin: auto;	
+	font-size: 0.7em;
+	color: #7f6b64;
+	text-align: center;	
+	padding-bottom: 20px;	
+}
+
+.comments  {
+	margin: 10px 0 10px 0;
+	padding-bottom: 20px;
+}
+
+.commentTitle {
+	color: #3399FF;
+	margin-bottom: 10px;
+}
